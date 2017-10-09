@@ -11,6 +11,13 @@ module LeadPpc
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 
+    config.after_initialize do
+      Disqus::defaults[:account] = "disqus_alevashov"
+      Disqus::defaults[:developer] = true
+      Disqus::defaults[:container_id] = "disqus_thread"
+      Disqus::defaults[:show_powered_by] = false
+    end
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

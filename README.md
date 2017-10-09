@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Lead-PPC - free web app for PPC advertising.
 
-Things you may want to cover:
+Features:
+- Phrase generator (make new keys)
+- Make utm-marks
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+See, how it works:
+http://lead-ppc.ru
