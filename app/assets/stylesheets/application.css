@@ -1,0 +1,211 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic,cyrillic-ext');
+
+ /* -- MAIN -- */
+
+ body {
+     margin: 0 auto;
+     background-color: ghostwhite;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 12px;
+ }
+
+ .clear:after {
+     content: '';
+     clear: both;
+     display: table;
+ }
+
+ .header {
+     margin: auto auto;
+     background-color: #f8f8f8;
+     border-bottom: 2px solid #e7e7e7;
+ }
+
+ .header-info {
+     min-width: 320px;
+     max-width: 960px;
+     margin: 0 auto;
+     padding-bottom: 20px;
+ }
+
+ h1 {
+     float: left;
+     margin: 0 10px;
+     padding-top: 20px;
+     font-size: 22px;
+     font-weight: 600;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .lk {
+     margin-top: 12px;
+     margin-left: 10px;
+     float: right;
+ }
+
+ .lk p {
+     font-size: 14px;
+
+ }
+
+ .content {
+     min-width: 320px;
+     max-width: 960px;
+     margin: 0 auto;
+ }
+
+ h2 {
+     margin-left: 10px;
+     font-size: 18px;
+     font-weight: 600;
+ }
+
+ .ppc-tools {
+     margin: 0 10px;
+     border: 2px solid #211f1e;
+     border-radius: 5px;
+     max-width: 700px;
+ }
+
+ .ppc-tool {
+     box-sizing: border-box;
+     margin-bottom: 5px;
+ }
+
+ .ppc-tool a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .ppc-tool a:hover {
+     color: #3449de
+ }
+
+ .ppc-tool-name {
+
+ }
+
+ h3 {
+     margin-top: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+     font-size: 14px;
+     font-weight: 600;
+ }
+ .ppc-tool-name h3 {
+     float: left;
+ }
+
+ .label {
+     float: left;
+     margin-top: 11px;
+     margin-right: 10px;
+     border: 0 solid;
+     border-radius: 10px;
+ }
+
+ .free {
+     background: #3449de;
+ }
+
+ .label span {
+     padding-left: 5px;
+     padding-right: 5px;
+     color: #ffffff;
+ }
+
+ .ppc-tool p {
+     margin: 0 0;
+     padding-left: 10px;
+     padding-bottom: 5px;
+ }
+
+ .footer {
+     min-width: 320px;
+     max-width: 960px;
+     margin: 0 auto;
+ }
+
+ .comments {
+     margin: 20px 10px;
+ }
+
+
+ .error p {
+     margin-left: 10px;
+ }
+
+ /* -- GENERATOR -- */
+
+ .form {
+     min-width: 320px;
+     max-width: 720px;
+     margin: 0 10px;
+     border: 2px solid #211f1e;
+     border-radius: 5px;
+ }
+
+ .generator {
+
+ }
+
+ .keys {
+     float: left;
+     width: 30%;
+     margin-left: 15px;
+ }
+
+
+
+ textarea {
+     max-width: 80%;
+     height: 250px;
+     border: 1px solid #999;
+     resize: none;
+ }
+
+ .keys-generate {
+     margin: 15px 15px;
+ }
+
+ .results-form {
+     min-width: 320px;
+     max-width: 720px;
+     margin: 20px 10px;
+     border: 2px solid #211f1e;
+     border-radius: 5px;
+ }
+
+ .results-form h3 {
+     margin-left: 15px;
+ }
+
+ .results-form p {
+     margin: 10px 15px;
+     font-size: 12px;
+ }
+
+ .results {
+     margin-left: 15px;
+     margin-bottom: 15px;
+ }
